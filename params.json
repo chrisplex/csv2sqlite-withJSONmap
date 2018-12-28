@@ -1,0 +1,33 @@
+{
+  "db": "db1",
+  "table_1": {
+		"type" : "table_type_to_be_used_for_further_processing",
+		"active" : "true",
+		"encoding_of_file" : "ISO-8859-1",
+		"delimiter_set" : ",",
+        "filepath" : "test_file1.csv",
+		"columns": {
+            "Column1": "Column1",
+			"Column2": "Column2",
+			"Column3": "Column3",
+			"Column4": "Column4",
+			"Column5": "Column5"
+            }
+        },
+	"table_2": {
+		"type" : "category",
+		"active" : "true",
+		"encoding_of_file" : "UTF-8",
+		"delimiter_set" : "|",
+        "filepath" : "test_file2.psv",
+		"columns" : {
+            "Column1": "Column1",
+			"Column2": "Column2",
+			"Column3": "Column3",
+			"Column4": "Column4",
+			"Column5": "Column5",
+			"Column6": "Column6",
+			"Column7": "Column7"
+            }
+        }
+}
